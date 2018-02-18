@@ -85,7 +85,7 @@ a, a:visited {
 }
 
 a:hover, a:focus {
-  color: #000000;
+  color: #423176;
 }
 
 
@@ -3005,8 +3005,19 @@ footer h4.h05::after {
     src: url(fonts/Robot_Crush.ttf);
 }
 .home-content-tablecell h1.maintitle,
-.home-content-tablecell h3.maintitle {
+.home-content-tablecell h3.maintitle,
+.home-content-tablecell h2.maintitle {
   font-family: robot_crush;
+
+}
+.home-content-tablecell h2.maintitle  {
+  color:white;
+  font-size: 1.8em;
+}
+.timelimit{
+  color: #423176;
+  font-family: "montserrat-regular", sans-serif;
+  font-weight: bold;
 }
 /*FAQ section*/
 .faq-header{
