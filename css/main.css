@@ -76,7 +76,7 @@ body {
  * links - (_document-setup)
  * ------------------------------------------------------------------- */
 a, a:visited {
-  color: #423176;
+  color: #605585;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1354,7 +1354,7 @@ header .header-logo a {
   line-height: 1.6;
   padding: 3.6rem 3rem;
   height: 100%;
-  width: 240px;
+  width: 40%;
   position: fixed;
   right: 0;
   top: 0;
@@ -1599,7 +1599,7 @@ header .header-logo a {
 .home-social-list li a:hover,
 .home-social-list li a:focus,
 .home-social-list li a:active {
-  color: #151515;
+  color: white;
 }
 
 /* scroll down */
@@ -1619,7 +1619,7 @@ header .header-logo a {
   padding-left: 9px;
 }
 .scrolldown a:hover, .scrolldown a:focus, .scrolldown a:active {
-  color: #151515 !important;
+  color: white !important;
 }
 
 html[data-useragent*='MSIE 10.0'] .scrolldown,
@@ -1945,12 +1945,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: rgba(242, 242, 242, 0.5);
 }
 #services .services-list .icon {
-  display: inline-block;
-  margin-bottom: 1.5rem;
+  display: inline-block !important;
+  margin-bottom: 1.5rem !important;
 }
 #services .services-list .icon i {
-  font-size: 5.4rem;
-  color: #6e609b;
+  font-size: 5.4rem !important;
+  color: #6e609b !important;
 }
 #services .services-list .h05 {
   font-size: 1.7rem;
@@ -2642,7 +2642,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: #FFFFFF;
 }
 
-#contact button.submitform {
+#contact input.submitform {
   font-size: 1.5rem;
   display: block;
   letter-spacing: .2rem;
