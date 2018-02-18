@@ -2999,7 +2999,7 @@ footer h4.h05::after {
 
 
 /*MINE*/
-@font-face {
+/*@font-face {
     font-family: robot_crush;
     src: url(fonts/Robot_Crush.ttf);
 }
@@ -3008,10 +3008,13 @@ footer h4.h05::after {
 .home-content-tablecell h2.maintitle {
   font-family: robot_crush;
 
-}
-.home-content-tablecell h2.maintitle  {
-  color:white;
+}*/
+.home-content-tablecell h2.maintitle {
+  color: white;
   font-size: 1.8em;
+}
+.rolessubtitle {
+  color: rgba(242, 242, 242, 0.5)
 }
 .timelimit{
   color: #423176;
