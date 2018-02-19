@@ -416,7 +416,7 @@
 		ssAlertBoxes();
 		ssAnimations();
 		ssIntroAnimation();		
-		ssContactForm();
+		//ssContactForm();
 		ssAjaxChimp();
 		ssBackToTop();
 
