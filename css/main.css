@@ -2642,7 +2642,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: #FFFFFF;
 }
 
-#contact input.submitform {
+#contact button.submitform {
   font-size: 1.5rem;
   display: block;
   letter-spacing: .2rem;
