@@ -3072,6 +3072,9 @@ footer h4.h05::after {
 }
 
 .plus {
+  cursor:pointer;
+  color:white;
+  font-weight: normal;
   position: absolute;
   margin-left: 20px;
   margin-top: 4px;
