@@ -397,7 +397,22 @@
 		});
 	};	
 
-
+  /* Back to Top
+	* ------------------------------------------------------ */
+	var showFullModal = function() {
+		var shown = false;
+		$(window).on('scroll', function() {
+			if ($(window).scrollTop() >= $("#testimonials").offset().top-300 && !shown) {
+				swal({
+					title: "Oh non !", 
+					text: "Désolé, mais il semblerait qu'on soit complet...", 
+					icon: "warning",
+					closeOnClickOutside: false
+				});
+				shown = true;
+			}
+		});
+	};
   
   /* Initialize
 	* ------------------------------------------------------ */
@@ -419,7 +434,7 @@
 		//ssContactForm();
 		ssAjaxChimp();
 		ssBackToTop();
-
+		showFullModal();
 	})();
  
 

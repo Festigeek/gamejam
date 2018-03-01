@@ -3102,3 +3102,18 @@ footer h4.h05::after {
 input.panel {
   display: none;
 }
+
+/* Ajouts FG */
+
+.swal-footer {
+  text-align: center;
+}
+
+div.swal-button-container button {
+  height: initial;
+  line-height: 2.5rem;
+}
+
+div.swal-button__loader {
+  display: none;
+}
